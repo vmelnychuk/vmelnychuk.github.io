@@ -1,3 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@font-face {
+    font-family: Fixedsys;
+    src: url(../fonts/fixedsys.ttf);
+}
 html {
-    background-color: #eee;
+    background-color: #EEE8D5;
+    font-family: Fixedsys, sans-serif;
+    margin: 1em;
+    color: #657B83;
+}
+
+body {
+    background-color: #FDF6E3;
+    margin: 0 auto;
+    max-width: 960px;
+    border: 1px solid #93A1A1;
+    padding: 1em;
+}
+
+#wrapper {
+    
+}
+
+h1, h2 {
+    font-family: Fixedsys,'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+} 
+
+
+h1 {
+    font-size: 2.8em;
+    color: #D33682;
+}
+
+h2 {
+    font-size: 2.4em;
+    color: #859900;
+}
+
+a {
+    color: #b58900;
+}
+a:visited {
+    color: #cb4b16;
+}
+a:hover {
+    color: #cb4b16;
+}
+
+ul {
+    list-style-type: square;
 }

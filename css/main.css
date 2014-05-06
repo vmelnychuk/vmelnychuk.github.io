@@ -27,6 +27,7 @@ body {
 h1 {
     font-size: 2.8em;
     color: #CB4B16;
+    text-shadow: 2px 2px #B58900;
 }
 
 h2 {
@@ -35,13 +36,13 @@ h2 {
 }
 
 a {
-    color: #b58900;
+    color: #B58900;
 }
 a:visited {
-    color: #cb4b16;
+    color: #CB4B16;
 }
 a:hover {
-    color: #cb4b16;
+    color: #CB4B16;
 }
 
 ul {

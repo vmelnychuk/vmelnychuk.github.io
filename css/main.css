@@ -5,8 +5,8 @@
 
 html {
     background-color: #EEE8D5;
-    font-family: Fixedsys, sans-serif;
-    margin: 1em;
+    font-family: Consolas, Monaco, "Lucida Console", monospace;
+    margin: 20px;
     color: #657B83;
 }
 
@@ -15,42 +15,60 @@ body {
     margin: 0 auto;
     max-width: 960px;
     border: 1px solid #657B83;
-    padding: 1em;
+    padding: 15px;
+    font-size: 16px;
 }
 
-#wrapper {
-    
+nav, section, header, footer {
+    display: block;
+}
+
+h1, p {
+    margin: 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
 }
 
 h1 {
-    font-size: 2.8em;
+    font-family: Fixedsys, sans-serif;
+    font-size: 44px;
     color: #CB4B16;
     text-shadow: 1px 1px #B58900;
+    margin: 0px;
 }
 
 h2 {
-    font-size: 2.4em;
+    font-size: 38px;
     color: #B58900;
 }
 h3 {
-    font-size: 1.8em;
+    font-size: 24px;
     font-weight: normal;
 }
 
-a, a:visited {
+
+a:link, a:visited {
     color: #B58900;
     text-decoration: none;
 }
 
 a:hover {
     color: #CB4B16;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
     color: #CB4B16;
 }
 
-ul {
-    list-style-type: none;
+footer {
+    text-align: center;
 }

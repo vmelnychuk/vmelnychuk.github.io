@@ -23,7 +23,3 @@ ul#menu {
     display: inline;
     padding: 10px;
 }
-
-#menu li:hover {
-    text-decoration: underline;
-}

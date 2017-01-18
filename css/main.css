@@ -23,3 +23,17 @@ ul#menu {
     display: inline;
     padding: 10px;
 }
+
+#menu li a {
+    color: #000;
+}
+
+#menu li a:link,
+#menu li a:visited,
+#menu li a:active {
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+}
